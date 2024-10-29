@@ -1,0 +1,43 @@
+
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .stock-form {
+    display: flex;            /* Enables flexbox layout */
+    flex-direction: row;      /* Aligns items horizontally (row-wise) */
+    column-gap: 20px;
+    box-sizing: border-box;        /* Adds 20px spacing between items */
+  }
+
+  .stock-form input {
+    width: 300px;
+    height: 40px;
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+  .stock-form button {
+    width: 150px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
