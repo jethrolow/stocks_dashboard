@@ -7,7 +7,7 @@ const StockGridDisplay = () => {
     const [stockListWithPrices, setStockListWithPrices] = useState([]);
 
     async function fetchStockPrices(stock) {
-        let apiKey = 'B37408WEE0PO9WN0';
+        let apiKey = '4I088XUXHM95UTAL';
         const stockSymbol = stock.stockSymbol;
         // apiKey = 'demo';
     
